@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="https://gitcdn.link/repo/yoursamlan/reasoning/main/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    </script>
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+
+    <body id="fx-respond">
+        <div id="container">
+            <div id="content" class="fx-tiles">
+                <!-- FULL WIDTH LAYOUT -->
+                <div class="fx-grid fx-cf">
+                    <div class="fx-col">
+                        <!-- ADD BLOCK(S) HERE -->
+                        <!-- START: SHARE BLOCK -->
+                        <div class="fx-block fx-purple fx-share fx-align-left fx-cf purple-bg" style="padding:20px ">
+                            <div class="fx-copy" style="padding-left:20px; padding-bottom:0">
+                                <h1 class="intro-name">Welcome.</h1>
+                                <p class="intro-para"> Here is your test for the chapter <b>SERIES</b><br></p>
+                                <br>
+                                <ul>
+                                    <li>
+                                        <p class="intro-para"> This test contains 30 <u>single option correct</u> type questions.</p>
+                                    </li>
+                                    <li>
+                                        <p class="intro-para"> Maximum time allotted for the test: <u>90 minutes</u></p>
+                                    </li>
+                                    <!--li><p class="intro-para"> You have to find <u>missing terms</u> in each of the following series.</p></li>
+                    <li><p class="intro-para"> Any other instruction (if necessary) will be provided to the fellow question.</p></li-->
+                                    <br>
+                                    <h2 class="into-name"> Good Luck </h2>
+                                    <br>
+                                </ul>
+                                <p><a href="#game" id="start-button" class="fx-btn">Start</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FULL WIDTH LAYOUT -->
+                    <div class="fx-grid fx-cf">
+                        <div class="fx-col">
+                            <!-- ADD BLOCK(S) HERE -->
+                            <div class="fx-block game-container">
+                                <div id="game">
+                                    <div class="game-grid">
+                                        <p id="timer" class="timer">
+                                            1:00:00
+                                        </p>
+                                        <div class="game-left-col">
+                                            <div class="gauge-container" style="background: #ffffff url('images/icon-01.svg') no-repeat center center; background-size: 100px 100px;">
+                                                <canvas id="gauge" class="gauge" width="240" height="240"></canvas>
+                                                <div class="score-number">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="game-right-col">
+                                            <div class="questions">
+                                                <div class="question">
+                                                    <p><span class="number">1. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;4, 7, 12, 19, 28, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 30</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 36</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 39</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 49</span></label>
+                                                    </div>
+                                                </div>  
+                                                
+                                                                                                
+                                                <div class="question">
+                                                    <p><span class="number">2. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;2, 5, 9, 19, 37, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. 75</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 73</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 78</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 55</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">3. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;0, 6, 24, 60, 120, 210, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 240</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 290</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 336</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 496</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">4. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;1, 1, 4, 8, 9, 27, 16, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 32</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. 64</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 48</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 81</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">5. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;4, 6, 9, 13.5, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 22</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 22.25</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 20.75</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">d. 20.25</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">6. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;6, 13, 28, 59, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 111</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 113</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 119</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">d. 122</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">7. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;2, 7, 27, 107, 427, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 1262</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. 1707</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 4087</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 4807</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">8. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;5824, 5242, ?, 4247, 3823</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 4467</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 4856</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 4718</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 5164</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">9. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;1, 3, 4, 8, 15, 27, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 37</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 46</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 55</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">d. 50</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">10. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;2, 12, 36, 80, 150, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 194</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 210</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 252</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 258</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">11. </span><span class="questionText"> Find the next two terms of the following series:<br> &nbsp;&nbsp;&nbsp;A, C, F, J, ?, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. O, U</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. O, S</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. N, U</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. N, S</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">12. </span><span class="questionText"> Find the next term of the following series:<br> &nbsp;&nbsp;&nbsp;BMO, EOQ, HQS, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. GLO</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. KSU</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. SOV</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. SOW</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">13. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;ABD, DGK, ?, MTB, SBL</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. IKX</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. HMV</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. HMS</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. IKR</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">14. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;A, CD, GHI, ?, UVWXY</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. LMNO</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. MNO</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. MNOP</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. NOPQ</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">15. </span><span class="questionText"> Find the next two terms of the following series:<br> &nbsp;&nbsp;&nbsp;Z, X, S, I, R, R, ?, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. G, I</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. J, I</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. J, K</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. K, M</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">16. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;A, E, ?, O, U</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. H</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. I</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. J</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. K</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">17. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;Y, B, T, G, O, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. N</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. M</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. L</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. K</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">18. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;Z1A, X2D, V6G, T21J, R88M, P445P, ?</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. N2676S</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. N2876S</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. N3122T</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. M3212S</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">19. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;W144, ?,  S100, Q81, O64</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. U121</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. V121</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. S131</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. U120</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">20. </span><span class="questionText"> Find the wrong term of the following series:<br> &nbsp;&nbsp;&nbsp;1CV, 5FU, 9IT, 15LS, 17OR</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 5FU</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 9IT</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 15LS</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 17OR</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">21. </span><span class="questionText"> Find the wrong term of the following series:<br> &nbsp;&nbsp;&nbsp;2, 6, 24, 96, 285, 568, 567</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 567</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 285</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 24</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 6</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">22. </span><span class="questionText"> Find the wrong term of the following series:<br> &nbsp;&nbsp;&nbsp;1, 3, 12, 25, 48</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 48</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. 25</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 12</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 3</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">23. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;8, 9, 8, 7, 10, 9, 6, 11, 10, ?, 12</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 11</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 8</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 7</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">d. 5</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">24. </span><span class="questionText"> Consider the following series:<br> &nbsp;&nbsp;&nbsp;A B C D ... X Y Z | Y X ... B A | B C D ... Y Z | Y X ... &nbsp;&nbsp;&nbsp; C B A | B C ... Y Z ...<br>Which letter occupies the 1000th position in the above series?  </span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. B</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. C</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. X</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. Y</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">25. </span><span class="questionText"> Find the missing terms of the following pattern:<br> &nbsp;&nbsp;&nbsp;aab_aaa_bba_</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. abb</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. bab</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. baa</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. aab</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">26. </span><span class="questionText"> Find the missing terms of the following pattern:<br> &nbsp;&nbsp;&nbsp;_ _ aba _ _ ba _ ab </span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. abbba</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. abbab</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. aabab</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. baabb</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">27. </span><span class="questionText"> Find the missing terms of the following pattern:<br> &nbsp;&nbsp;&nbsp;_ tu _ rt _ s _ _ usrtu _</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. rtusru</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. rsutrr</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. rsurtr</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">d. rsurts</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">28. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;7, 8, 18, 57, ?, 1165</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 174</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">b. 232</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. 222</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 224</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">29. </span><span class="questionText"> Find the missing term of the following series:<br> &nbsp;&nbsp;&nbsp;4, 10, 28, ?, 244</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">a. 36</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. 72</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">c. 82</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. 144</span></label>
+                                                    </div>
+                                                </div>
+                                                <div class="question">
+                                                    <p><span class="number">30. </span><span class="questionText"> Find the missing terms of the following pattern:<br> &nbsp;&nbsp;&nbsp;_aba_cabc_dcba_bab_a</span></p>
+                                                    <div class="answers">
+                                                        <label><input type="checkbox" class="answer" data-correct="true"><span class="text">a. abdca</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">b. bcadc</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">c. abcdd</span></label>
+                                                        <label><input type="checkbox" class="answer" data-correct="false"><span class="text">d. cbdaa</span></label>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- 
+                        <div class="question">
+                        <p><span class="number">3 </span><span class="questionText">With online Bills of Lading you can:</span></p>
+                        <div class="answers">
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">A. Schedule pickups</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">B. Check transit times</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="true"><span class="text">C. Both of the above</span></label>
+                        </div>
+                      </div>
+                        <div class="question">
+                        <p><span class="number">4 </span><span class="questionText">With online Bills of Lading you can:</span></p>
+                        <div class="answers">
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">A. Schedule pickups</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">B. Check transit times</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="true"><span class="text">C. Both of the above</span></label>
+                        </div>
+                      </div>
+                      <div class="question">
+                        <p><span class="number">5 </span><span class="questionText">You can use your address book for both parcel and freight shipments. 
+                        </span></p>
+                        <div class="answers">
+                         <label><input type="checkbox" class="answer" data-correct="true"><span class="text">A. True</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">B.  False</span></label>
+                        </div>
+                      </div>
+                      <div class="question">
+                        <p><span class="number">6 </span><span class="questionText">You can use My Shipment Profiles to:</span></p>
+                        <div class="answers">
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">A. Post your shipments to social media</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="true"><span class="text">B. Automatically create a Bill of Lading</span></label>
+                          <label><input type="checkbox" class="answer" data-correct="false"><span class="text">C.  Determine your freight class </span></label>
+                        </div>
+                      </div-->
+                                            </div>
+                                            <div id="game-end-times-up">
+                                                
+                                                <p id="time-out-text" class="game-end-text"></p>
+                                                
+                                                <h6>Compiled and coded by Amlan Saha Kundu, 2020</h6>
+
+                                                <button class="noprint" id="btnn" onclick="display()">Print your Result</button>
+
+                                            </div>
+                                            <div id="game-end">
+                                                
+                                                <p id="game-end-text" class="game-end-text"></p>
+                                                
+                                                <h6>Compiled and coded by Amlan Saha Kundu, 2020</h6>
+                                                
+                                                <button class="noprint" id="btnn" onclick="display()">Print your Result</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="progress-bar" class="progress-bar">
+                                        <div class="indicator current"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                        <div class="indicator"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- GLOBAL WRAPPER CSS -->
+        <link rel="stylesheet" type="text/css" href="https://www.fedex.com/css/t2/global-wrapper-min.css" id="globalCSS" />
+        <!-- MASTER RESPONSIVE CSS -->
+        <link rel="stylesheet" type="text/css" href="https://www.fedex.com/css/t2/master-responsive-min.css" />
+        <!-- MASTER RESPONSIVE JAVASCRIPT (Keep below footer include) -->
+        <script type="text/javascript" src="https://images.fedex.com/templates/components/libraries/1.0/jQuery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.fedex.com/templates/components/javascript/v2/fx-master-responsive.js"></script>
+    </body>
+    <!-- partial -->
+    <script>
+        var game = {
+            state: {
+                startButton: $("#start-button"),
+                gameContainer: $("#game"),
+                scoreNumber: $(".score-number"),
+                questionsView: $(".questions"),
+                gameEndView: $("#game-end"),
+                gameEndViewTimesUp: $("#game-end-times-up"),
+                gameEndText: $("#game-end-text"),
+                timeOutText: $("#time-out-text"),
+                gauge: $("#gauge"),
+                questions: $(".question"),
+                answers: $(".answer"),
+                timer: $("#timer"),
+                indicators: $(".indicator"),
+                numberOfQuestions: $(".question").length,
+                questionsAnswered: 0,
+                correctAnswers: 0
+            },
+            init: function() {
+                game.registerEventHandlers();
+            },
+            registerEventHandlers: function() {
+                game.state.answers.on("click touch", function(e) {
+                    game.checkAnswer($(this));
+                });
+                game.state.startButton.on("click touch", function(e) {
+                    e.preventDefault();
+                    game.start();
+                });
+            },
+            start: function() {
+                game.state.gameContainer.addClass("show");
+                $("html, body").animate({
+                    scrollTop: game.state.gameContainer.offset().top - 10
+                }, 400, game.startTimer());
+                game.state.startButton.unbind("click touch");
+            },
+            startTimer: function() {
+                var zeroFill = function(units) {
+                    return units < 10 ? "0" + units + "" : units;
+                };
+                var count = 0;
+                var interval = window.setInterval(function() {
+                    var centisecondsRemaining = 60100 - count;
+                    var hr = zeroFill(Math.floor(centisecondsRemaining / 360000));
+                    var min = zeroFill(Math.floor(centisecondsRemaining / 6000 % 60));
+                    var sec = zeroFill(Math.floor(centisecondsRemaining / 100 % 60));
+                    var cs = zeroFill(centisecondsRemaining % 100);
+                    game.state.timer.text(hr + ":" + min + ":" + sec);
+                    count++;
+                    if (centisecondsRemaining === 0) {
+                        clearInterval(interval);
+                        game.timesUp();
+                    }
+                    if (game.state.questionsAnswered === game.state.numberOfQuestions) {
+                        clearInterval(interval);
+                    }
+                    if (game.state.questionsAnswered === game.state.numberOfQuestions) {
+                        clearInterval(interval);
+                    }
+                }, 10);
+            },
+            checkAnswer: function(answer) {
+                if (answer.data("correct")) {
+                    game.state.correctAnswers++;
+                    game.drawGaugeValue();
+                    game.updateProgress(true);
+                    game.giveAnswerFeedback(answer);
+                } else {
+                    game.updateProgress(false);
+                    game.giveAnswerFeedback(answer);
+                }
+                game.state.questionsAnswered++;
+                window.setTimeout(function() {
+                    if (game.state.questionsAnswered === game.state.numberOfQuestions) {
+                        game.endGame();
+                    } else {
+                        game.goToNextQuestion();
+                    }
+                }, 1000);
+            },
+            drawGaugeValue: function() {
+                var currentValue = 100 / (game.state.numberOfQuestions / (game.state.correctAnswers - 1)) / 100;
+                var nextValue = currentValue + 100 / game.state.numberOfQuestions / 100;
+                var draw = function(currentValue, nextValue) {
+                    var bg = game.state.gauge[0];
+                    var ctx = (ctx = bg.getContext("2d"));
+                    var imd = null;
+                    var startRad = 0.75;
+                    var totalRads = 1.5;
+                    var sAngle = Math.PI * startRad;
+                    ctx.beginPath();
+                    ctx.strokeStyle = "#512ca5";
+                    ctx.lineCap = "round";
+                    ctx.closePath();
+                    ctx.fill();
+                    ctx.lineWidth = 10.0;
+                    imd = ctx.getImageData(0, 0, 240, 240);
+                    $({
+                        n: currentValue
+                    }).animate({
+                        n: nextValue
+                    }, {
+                        duration: 1000 * nextValue,
+                        step: function(now, fx) {
+                            game.state.scoreNumber.text(Math.ceil(now * 100));
+                            ctx.putImageData(imd, 0, 0);
+                            ctx.beginPath();
+                            ctx.arc(120, 120, 100, sAngle, (totalRads * now + startRad) * Math.PI, false);
+                            ctx.stroke();
+                        }
+                    });
+                };
+                draw(currentValue, nextValue);
+            },
+            updateProgress: function(correct) {
+                $(game.state.indicators[game.state.questionsAnswered]).addClass(correct ? "correct" : "incorrect");
+                $(game.state.indicators).removeClass("current");
+                $(game.state.indicators[game.state.questionsAnswered + 1]).addClass("current");
+            },
+            giveAnswerFeedback: function(answer) {
+                var answerGroup = answer.parent().parent().find(".answer");
+                for (var i = 0; i < answerGroup.length; i++) {
+                    answerGroup[i].disabled = true;
+                    if ($(answerGroup[i]).data("correct")) {
+                        $(answerGroup[i]).parent().addClass("correct");
+                    } else {
+                        $(answerGroup[i]).parent().addClass("incorrect");
+                    }
+                }
+            },
+            goToNextQuestion: function() {
+                var lastQuestionIndex = game.state.questionsAnswered - 1;
+                var nextQuestionIndex = game.state.questionsAnswered;
+                $(game.state.questions[lastQuestionIndex]).fadeOut(400, function() {
+                    $(game.state.questions[nextQuestionIndex]).fadeIn(200);
+                });
+            },
+            timesUp: function() {
+                var endText = "Looks like you have run out of time.<br />No worries. Better luck next time.";
+                game.state.questionsView.fadeOut(400, function() {
+                    game.state.timeOutText[0].innerHTML = endText;
+                    game.state.gameEndViewTimesUp.fadeIn(200);
+                });
+            },
+            endGame: function() {
+                var endText = 'You got<br><span class="score">' + game.state.correctAnswers + " out of " + game.state.numberOfQuestions + "</span><br> correct";
+                game.state.questionsView.fadeOut(400, function() {
+                    game.state.gameEndText[0].innerHTML = endText;
+                    game.state.gameEndView.fadeIn(200);
+                });
+            }
+        };
+        game.init();
+        var drawGaugeBackground = function() {
+            var bg = $("#gauge")[0];
+            var ctx = bg.getContext("2d");
+            var imd = null;
+            var sAngle = Math.PI * 0.75;
+            var eAngle = Math.PI * 0.25;
+            ctx.beginPath();
+            ctx.strokeStyle = "#f4f4f4";
+            ctx.lineCap = "round";
+            ctx.closePath();
+            ctx.fill();
+            ctx.lineWidth = 30.0;
+            imd = ctx.getImageData(0, 0, 240, 240);
+            ctx.putImageData(imd, 0, 0);
+            ctx.beginPath();
+            ctx.arc(120, 120, 100, sAngle, eAngle, false);
+            ctx.stroke();
+        };
+        drawGaugeBackground();
+
+        function display() {
+            window.print();
+        }
+
+    </script>
+
+</body>
+
+</html>
