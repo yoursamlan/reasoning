@@ -1,1 +1,1 @@
-# Reasoning
+[1.1 Series [SET-1]](https://yoursamlan.github.io/Reasoning/1.1_Series_[SET-1].html)  <br />  
